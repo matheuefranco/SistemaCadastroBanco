@@ -87,7 +87,7 @@
             this.panel1.Controls.Add(this.btnCadastra);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(207, 535);
             this.panel1.TabIndex = 0;
@@ -96,7 +96,7 @@
             // 
             this.marcador.BackColor = System.Drawing.Color.Firebrick;
             this.marcador.Location = new System.Drawing.Point(1, 105);
-            this.marcador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.marcador.Margin = new System.Windows.Forms.Padding(4);
             this.marcador.Name = "marcador";
             this.marcador.Size = new System.Drawing.Size(13, 44);
             this.marcador.TabIndex = 8;
@@ -109,7 +109,7 @@
             this.btnBusca.ForeColor = System.Drawing.Color.White;
             this.btnBusca.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBusca.Location = new System.Drawing.Point(22, 157);
-            this.btnBusca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBusca.Margin = new System.Windows.Forms.Padding(4);
             this.btnBusca.Name = "btnBusca";
             this.btnBusca.Size = new System.Drawing.Size(175, 60);
             this.btnBusca.TabIndex = 5;
@@ -127,7 +127,7 @@
             this.btnCadastra.ForeColor = System.Drawing.Color.White;
             this.btnCadastra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastra.Location = new System.Drawing.Point(22, 100);
-            this.btnCadastra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCadastra.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastra.Name = "btnCadastra";
             this.btnCadastra.Size = new System.Drawing.Size(175, 60);
             this.btnCadastra.TabIndex = 3;
@@ -143,7 +143,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(207, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(896, 28);
             this.panel2.TabIndex = 1;
@@ -151,7 +151,7 @@
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(60, 46);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(167, 161);
             this.panel3.TabIndex = 2;
@@ -162,7 +162,7 @@
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Location = new System.Drawing.Point(319, 23);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(179, 162);
             this.panel4.TabIndex = 2;
@@ -181,11 +181,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::SistemaCadastro.Properties.Resources.rock_and_roll;
             this.pictureBox1.Location = new System.Drawing.Point(9, 8);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(156, 106);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -196,7 +197,7 @@
             this.tabControl1.Controls.Add(this.tabAlterar);
             this.tabControl1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.tabControl1.Location = new System.Drawing.Point(207, 193);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(896, 342);
@@ -216,9 +217,9 @@
             this.tabCadastrar.Controls.Add(this.label2);
             this.tabCadastrar.Controls.Add(this.label4);
             this.tabCadastrar.Location = new System.Drawing.Point(4, 30);
-            this.tabCadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.tabCadastrar.Name = "tabCadastrar";
-            this.tabCadastrar.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabCadastrar.Padding = new System.Windows.Forms.Padding(4);
             this.tabCadastrar.Size = new System.Drawing.Size(888, 308);
             this.tabCadastrar.TabIndex = 0;
             this.tabCadastrar.Text = "Cadastrar";
@@ -231,7 +232,7 @@
             this.bntAddGenero.ForeColor = System.Drawing.Color.DimGray;
             this.bntAddGenero.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bntAddGenero.Location = new System.Drawing.Point(822, 65);
-            this.bntAddGenero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bntAddGenero.Margin = new System.Windows.Forms.Padding(4);
             this.bntAddGenero.Name = "bntAddGenero";
             this.bntAddGenero.Size = new System.Drawing.Size(34, 23);
             this.bntAddGenero.TabIndex = 15;
@@ -276,12 +277,13 @@
             this.BtnConfirmaCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnConfirmaCadastro.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.BtnConfirmaCadastro.ForeColor = System.Drawing.Color.DimGray;
+            this.BtnConfirmaCadastro.Image = global::SistemaCadastro.Properties.Resources.adicionar;
             this.BtnConfirmaCadastro.Location = new System.Drawing.Point(380, 213);
-            this.BtnConfirmaCadastro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnConfirmaCadastro.Margin = new System.Windows.Forms.Padding(4);
             this.BtnConfirmaCadastro.Name = "BtnConfirmaCadastro";
             this.BtnConfirmaCadastro.Size = new System.Drawing.Size(175, 60);
             this.BtnConfirmaCadastro.TabIndex = 13;
-            this.BtnConfirmaCadastro.Text = "Confirmar";
+            this.BtnConfirmaCadastro.Text = "&Cadastrar";
             this.BtnConfirmaCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnConfirmaCadastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnConfirmaCadastro.UseVisualStyleBackColor = true;
@@ -291,7 +293,7 @@
             // 
             this.txtintegrantes.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtintegrantes.Location = new System.Drawing.Point(176, 112);
-            this.txtintegrantes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtintegrantes.Margin = new System.Windows.Forms.Padding(4);
             this.txtintegrantes.Name = "txtintegrantes";
             this.txtintegrantes.Size = new System.Drawing.Size(639, 32);
             this.txtintegrantes.TabIndex = 11;
@@ -300,7 +302,7 @@
             // 
             this.txtnome.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtnome.Location = new System.Drawing.Point(176, 11);
-            this.txtnome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnome.Margin = new System.Windows.Forms.Padding(4);
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(639, 34);
             this.txtnome.TabIndex = 9;
@@ -350,9 +352,9 @@
             this.tabBuscar.Controls.Add(this.txtBusca);
             this.tabBuscar.Controls.Add(this.dgBandas);
             this.tabBuscar.Location = new System.Drawing.Point(4, 30);
-            this.tabBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.tabBuscar.Name = "tabBuscar";
-            this.tabBuscar.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabBuscar.Padding = new System.Windows.Forms.Padding(4);
             this.tabBuscar.Size = new System.Drawing.Size(888, 308);
             this.tabBuscar.TabIndex = 1;
             this.tabBuscar.Text = "Buscar";
@@ -366,7 +368,7 @@
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlterar.Location = new System.Drawing.Point(632, 6);
-            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(140, 56);
             this.btnAlterar.TabIndex = 15;
@@ -385,7 +387,7 @@
             this.btnRemoveBanda.Image = ((System.Drawing.Image)(resources.GetObject("btnRemoveBanda.Image")));
             this.btnRemoveBanda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRemoveBanda.Location = new System.Drawing.Point(484, 6);
-            this.btnRemoveBanda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveBanda.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemoveBanda.Name = "btnRemoveBanda";
             this.btnRemoveBanda.Size = new System.Drawing.Size(140, 56);
             this.btnRemoveBanda.TabIndex = 14;
@@ -486,8 +488,8 @@
             this.btnConfirmaAlteracao.ForeColor = System.Drawing.Color.DimGray;
             this.btnConfirmaAlteracao.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirmaAlteracao.Image")));
             this.btnConfirmaAlteracao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfirmaAlteracao.Location = new System.Drawing.Point(374, 229);
-            this.btnConfirmaAlteracao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfirmaAlteracao.Location = new System.Drawing.Point(390, 216);
+            this.btnConfirmaAlteracao.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfirmaAlteracao.Name = "btnConfirmaAlteracao";
             this.btnConfirmaAlteracao.Size = new System.Drawing.Size(175, 60);
             this.btnConfirmaAlteracao.TabIndex = 22;
@@ -501,7 +503,7 @@
             // 
             this.txtAlteraIntegrantes.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.txtAlteraIntegrantes.Location = new System.Drawing.Point(170, 128);
-            this.txtAlteraIntegrantes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAlteraIntegrantes.Margin = new System.Windows.Forms.Padding(4);
             this.txtAlteraIntegrantes.Name = "txtAlteraIntegrantes";
             this.txtAlteraIntegrantes.Size = new System.Drawing.Size(639, 32);
             this.txtAlteraIntegrantes.TabIndex = 19;
@@ -510,7 +512,7 @@
             // 
             this.txtAlteraNome.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtAlteraNome.Location = new System.Drawing.Point(170, 27);
-            this.txtAlteraNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAlteraNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtAlteraNome.Name = "txtAlteraNome";
             this.txtAlteraNome.Size = new System.Drawing.Size(639, 34);
             this.txtAlteraNome.TabIndex = 17;
@@ -568,7 +570,7 @@
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(1066, 31);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(33, 41);
             this.button2.TabIndex = 8;
@@ -591,7 +593,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Sistema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

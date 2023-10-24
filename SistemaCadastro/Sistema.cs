@@ -54,7 +54,13 @@ namespace SistemaCadastro
 
         private void BtnConfirmaCadastro_Click_1(object sender, EventArgs e)
         {
-            
+            Banda novaBanda = new Banda();
+            ConectaBanco conexao = new ConectaBanco();
+            bool retorno = conexao.insereBanda(novaBanda);
+            if (retorno == true)
+                MessageBox.Show("Conexao efetuada");
+            else
+                MessageBox.Show("Erro:" + conexao.mensagem);
         }
 
         private void txtBusca_TextChanged(object sender, EventArgs e)
@@ -74,7 +80,7 @@ namespace SistemaCadastro
 
          private void btnConfirmaAlteracao_Click(object sender, EventArgs e)
         {
-            
+           
 
 
         }
