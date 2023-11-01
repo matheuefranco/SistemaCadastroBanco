@@ -52,16 +52,7 @@ namespace SistemaCadastro
         }
 
 
-        private void BtnConfirmaCadastro_Click_1(object sender, EventArgs e)
-        {
-            Banda novaBanda = new Banda();
-            ConectaBanco conexao = new ConectaBanco();
-            bool retorno = conexao.insereBanda(novaBanda);
-            if (retorno == true)
-                MessageBox.Show("Conexao efetuada");
-            else
-                MessageBox.Show("Erro:" + conexao.mensagem);
-        }
+
 
         private void txtBusca_TextChanged(object sender, EventArgs e)
         {
@@ -88,6 +79,22 @@ namespace SistemaCadastro
         private void bntAddGenero_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void BtnConfirmaCadastro_Click(object sender, EventArgs e)
+        {
+            Banda novaBanda = new Banda();
+            novaBanda.Nome = txtnome.Text;
+            novaBanda.Integrantes = Convert.ToInt32(txtintegrantes.Text);
+            novaBanda.Ranking = Convert.ToInt32(txtranking.Text);
+            novaBanda.Genero = 1; // temporario
+
+            ConectaBanco conexao = new ConectaBanco();
+            bool retorno = conexao.insereBanda(novaBanda);
+            if (retorno == true)
+                MessageBox.Show("Inserção efetuada");
+            else
+                MessageBox.Show("Erro:" + conexao.mensagem);
         }
     }
 }
