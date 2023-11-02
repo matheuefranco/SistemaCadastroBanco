@@ -57,3 +57,10 @@ BEGIN
      Select * from bandas;
 END ;;
 DELIMITER ;
+
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_listaGeneros`()
+BEGIN
+   select * from generos;
+END;;
+DELIMITER ;
